@@ -11,9 +11,7 @@
 
 int main(int argc, char const *argv[])
 {
-    std::cout<< "*************************************"<< std::endl;
-    std::cout<< "           OBSERVER PATTERN          "<< std::endl;
-    std::cout<< "*************************************"<< std::endl;
+
 
     Article a1("Crollo output Petrolio", "Oggi l'OPEC ha deciso di tagliare la produzione giornaliera di petrolio di 1 MLN di barili al giorno per tutto il 2023", "Ottorino Colantoni");
     a1.printArticle();
