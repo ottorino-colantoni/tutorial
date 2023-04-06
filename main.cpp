@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
 
     std::ofstream fs1;
 
-    fs1.open("../output.txt");
+    fs1.open("./output.txt");
 
     if(!fs1.is_open()){std::cout<< "Errore durante l'apertura del file" << std::endl;}
 
